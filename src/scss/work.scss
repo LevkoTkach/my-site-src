@@ -1,0 +1,45 @@
+.work {
+    margin-top: 4rem;
+}
+
+.web-page-container {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.web-page-wrapper {
+    margin: 3rem 0;
+    border-radius: 8px;
+    font-size: 2rem;
+}
+
+.web-page-link {
+    color: var(--text-color-main);
+}
+
+.web-page-image {
+    border-radius: 20px;
+    width: 100%;
+}
+
+.web-page-description {
+    padding-top: 25px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    font-size: 1.5rem;
+    line-height: 3rem;
+    align-items: flex-end;
+}
+
+@media (min-width: 767px) {
+    .web-page-container {
+        grid-template-columns: 1fr 1fr;
+        gap: 1rem;
+    }
+}
+@media (min-width: 980px) {
+    .web-page-container {
+        grid-template-columns: 1fr 1fr;
+        gap: 1rem;
+    }
+}

@@ -1,0 +1,22 @@
+@import "null.scss";
+@import "header.scss";
+@import "title.scss";
+@import "work.scss";
+@import "skils.scss";
+@import "footer.scss";
+
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap");
+:root {
+    --background-color-main: #0a0119;
+    --text-color-main: #f9f5ff;
+}
+
+body {
+    font-size: 16px;
+    font-family: "Inter", sans-serif;
+    background-color: var(--background-color-main);
+    color: var(--text-color-main);
+    img {
+        max-width: 100%;
+    }
+}

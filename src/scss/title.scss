@@ -1,0 +1,103 @@
+.title {
+    margin: 80px auto 0;
+}
+h2 {
+    font-size: 1.6rem;
+}
+h1 {
+    margin: 20px 0 8px;
+    font-size: 2rem;
+}
+h3 {
+    margin: 2rem 0 1rem;
+    font-size: 1.6rem;
+    text-align: center;
+}
+
+.title-header {
+    padding-top: 60px;
+    p {
+        font-size: 1.2rem;
+        line-height: 2rem;
+        text-align: justify;
+        margin-bottom: 25px;
+    }
+    img {
+        display: none;
+    }
+}
+.button {
+    background-color: var(--text-color-main);
+    color: var(--background-color-main);
+    font-size: 1.5rem;
+    padding: 0.5rem 2rem;
+    border-radius: 1.2rem;
+}
+.title-foto {
+    margin: 4rem 0 2rem;
+    border-radius: 20px;
+}
+.title-info {
+    margin-top: 4rem;
+    text-align: center;
+
+    p {
+        font-size: 1.2rem;
+        line-height: 2rem;
+        text-align: justify;
+    }
+    li {
+        line-height: 1.5rem;
+        margin: 0.25rem 0;
+    }
+}
+
+@media (min-width: 767px) {
+    .title-header {
+        padding-top: 60px;
+        display: flex;
+        justify-content: space-between;
+        div {
+            margin-top: 6rem;
+            display: block;
+            width: 50%;
+            p {
+                font-size: 1.2rem;
+                line-height: 2rem;
+                text-align: justify;
+            }
+            button {
+                margin: 24px 0 0;
+                background-color: var(--text-color-main);
+                color: var(--background-color-main);
+                font-size: 1.5rem;
+                padding: 0.5rem 2rem;
+                border-radius: 1.2rem;
+            }
+        }
+        img {
+            margin: 0 auto;
+            display: flex;
+            height: 70vh;
+        }
+    }
+    .title-about {
+        display: flex;
+        justify-content: space-between;
+
+        img {
+            margin: 4rem auto;
+            height: 80vh;
+            border-radius: 20px;
+        }
+        p {
+            margin: auto 0;
+            width: 50%;
+            font-size: 1.2rem;
+            line-height: 2rem;
+        }
+        li {
+            line-height: 1.5rem;
+        }
+    }
+}
